@@ -146,6 +146,8 @@ public class TryCatch
      }
  }
 ```
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-2.jpg?raw=true">
+
 ###2.
 ``` csharp
 using System;
@@ -160,6 +162,8 @@ public class TryCatch
      }
  }
 ```
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-3.jpg?raw=true">
+
 ###3.
 ``` csharp
 using System;
@@ -176,6 +180,8 @@ public class TryCatch
      }
  }
 ```
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-4.jpg?raw=true">
+
 ###1.1.3. คำสั่ง ```throw```
 
 คำสั่ง ```throw``` ใช้เพื่อเปลี่ยนเส้นทางการทำงานของโปรแกรมโดยเจาะจง exception เป้าหมาย
