@@ -470,6 +470,11 @@ Grade C
 
 3. รูปแบบการพิมพ์คือ score: [sss] grade: [gg] เมื่อ sss คือคะแนน และ gg คือ เกรดที่ได้
 
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-11.jpg?raw=true">
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-12.jpg?raw=true">
+
+  
+
 ###1.2.5. คำสั่ง ```switch```
 
 ในกรณีที่มีทางเลือกในการตัดสินใจเป็นจำนวนมาก ไม่เป็นการสะดวกที่จะเขียนเป็นโปรแกรมยาวๆ เช่นในกรณีของคำสั่ง if…else…if ภาษา C# มีคำสั่งตัดสินใจเลือกทิศทางของโปรแกรมแบบหลายทางเลือกให้ใช้คือคำสั่ง switch ซึ่งรูปแบบการใช้งาน ดังนี้
@@ -534,6 +539,46 @@ Good
 Input day name : sun
 sun is Sunday, color Red
 ```
+
+```
+using System;
+using System.IO;
+public class switchLearning
+{
+    public static void Main()
+    {
+        Console.Write("Input day name  : ");
+        string dayString = Console.ReadLine();
+        string message;
+        switch (dayString)
+        {
+            case "mon":
+                message = "mon is Monday , COLOR YELLOW";
+                break;
+            case "tue":
+                message = "tue is Tuesday , COLOR Pink";
+                break;
+            case "wed":
+                message = "wed is Wednesday , COLOR Green";
+                break;
+            case "thu":
+                message = "thu is Thursday , COLOR Orange";
+                break;
+            case "fri":
+                message = "fri is Friday , COLOR Blue";
+                break;
+            case "sat":
+                message = "sat is Saturday, COLOR Purple";
+                break;
+            default:
+                message = "------ ";
+                break;
+        }
+        Console.WriteLine(message);
+    }
+}
+```
+
 **ตารางกำหนดชื่อและสีประจำวัน**
 
 Input ที่รับได้	|ชื่อวัน|	สี
