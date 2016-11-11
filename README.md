@@ -207,12 +207,19 @@ public class ExceptionLearning
 ###การทดลอง ชนิดของ exception
 
 ให้เปลี่ยนชนิดของการ throw exception ในบรรทัดที่ 34 เป็น exception ดังต่อไปนี้ แล้วอธิบายผลที่ได้
+
+
 ```
 1.	DivideByZeroException
 2.	NullReferenceException
 3.	FileNotFoundException
 4.	FormatException
 ```
+
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-5.jpg?raw=true">
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-6.jpg?raw=true">
+<img src="https://github.com/NATAKORNCHA/LAB-08/blob/master/LAB8-7.jpg?raw=true">
+
 ```csharp
 using System;
 using System.IO;
